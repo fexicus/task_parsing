@@ -60,7 +60,7 @@ public class Application {
         try {
             vacancy.setExperience(getElementByClass(vacancyDetailsDocument,"vacancy-description-list-item"));
         } catch (NullPointerException e) {
-            vacancy.setExperience("Не указан");
+            vacancy.setExperience("Необходимый опыт не указан");
         }
     }
 
@@ -68,7 +68,7 @@ public class Application {
         try {
             vacancy.setDateOfCreated(getElementByClass(vacancyDetailsDocument,"vacancy-creation-time-redesigned"));
         } catch (NullPointerException e){
-            vacancy.setDateOfCreated("Не указано");
+            vacancy.setDateOfCreated("Дата создания вакансии не указана");
         }
     }
 
