@@ -9,44 +9,23 @@ public class Vacancy {
     private String dateOfCreated;
     private List<String> skills;
     private String salary;
-
     private String linkOfVacancy;
 
-    public String getTitle() {
-        return title;
-    }
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getExperience() {
-        return experience;
     }
 
     public void setExperience(String experience) {
         this.experience = experience;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
     public void setAuthor(String author) {
         this.author = author;
     }
 
-    public String getDateOfCreated() {
-        return dateOfCreated;
-    }
-
     public void setDateOfCreated(String dateOfCreated) {
         this.dateOfCreated = dateOfCreated;
-    }
-
-
-    public String getSalary() {
-        return salary;
     }
 
     public void setSalary(String salary) {
@@ -59,10 +38,6 @@ public class Vacancy {
 
     public void setLinkOfVacancy(String linkOfVacancy) {
         this.linkOfVacancy = linkOfVacancy;
-    }
-
-    public List<String> getSkills() {
-        return skills;
     }
 
     public void setSkills(List<String> skills) {
@@ -79,4 +54,7 @@ public class Vacancy {
                 "Ключевые навыки: " + skillsString + "\n" +
                 "Заработная плата: " + salary + "\n";
     }
+
+
+
 }
